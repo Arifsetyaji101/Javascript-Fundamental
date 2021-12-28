@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Unary</title>
+</head>
+
+<body>
+
+    <h1>Operator Unary</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <strong>Operator</strong>
+                </td>
+                <td>
+                    <strong>Keterangan</strong>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    +
+                </td>
+                <td>
+                    Menandakan nilai Positif
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    -
+                </td>
+                <td>
+                    Menandakan nilai Negatif
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ++
+                </td>
+                <td>
+                    Increment, menaikkan 1 angka
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    --
+                </td>
+                <td>
+                    Decrement, menurunkan 1 angka
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script>
+        let result = +3; //menandakan number benilai positif
+
+        document.writeln("<p>" + result + "</p>")
+
+        result-- //menurunkan 1 angka
+        
+        document.writeln("<p>" + result + "</p>")
+
+        result++ //menaikkan 1 angka
+
+        document.writeln("<p>" + result + "</p>")
+
+        result = -result; //membuat number bernilai negatif
+
+        document.writeln("<p>" + result + "</p>")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+<body>
+
+<h1>Operator Logika</h1>
+
+<ul>
+    <li>
+        Operator logika adla untuk dua buah data boolean
+    </li>
+    <li>
+        Hasil outputnya juga berbetuk boolean
+    </li>
+</ul>
+
+<table>
+    <thead>
+        <tr>
+            <td>
+                <strong>Operator</strong>
+            </td>
+            <td>
+                <strong>Keterangan</strong>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                &&
+            </td>
+            <td>
+                Dan
+            </td>
+        </tr>
+        <tr>
+            <td>
+                ||
+            </td>
+            <td>
+                Atau
+            </td>
+        </tr>
+        <tr>
+            <td>
+                |
+            </td>
+            <td>
+                Kebalikan
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h1>Operator &&</h1>
+<table>
+    <thead>
+        <tr>
+            <td>
+                <strong>Nilai 1</strong>
+            </td>
+            <td>
+                <strong>Operator</strong>
+            </td>
+            <td>
+                <strong>Nilai 2</strong>
+            </td>
+            <td>
+                <strong>Hasil</strong>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                true
+            </td>
+            <td>
+                &&
+            </td>
+            <td>
+                true
+            </td>
+            <td>
+                true
+            </td>
+        </tr>
+        <tr>
+            <td>
+                true
+            </td>
+            <td>
+                &&
+            </td>
+            <td>
+                false
+            </td>
+            <td>
+                false
+            </td>
+        </tr>
+        <tr>
+            <td>
+                false
+            </td>
+            <td>
+                &&
+            </td>
+            <td>
+                true
+            </td>
+            <td>
+                false
+            </td>
+        </tr>
+        <tr>
+            <td>
+                false
+            </td>
+            <td>
+                &&
+            </td>
+            <td>
+                false
+            </td>
+            <td>
+                false
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<br>
+
+    
+
+<script>
+    const nilaiUjian = 70;
+    const nilaiAbsensi = 50;
+
+    const lulusUjian = nilaiUjian > 75;
+    document.writeln(lulusUjian);
+
+    const lulusAbsensi = nilaiAbsensi > 40;
+    document.writeln(lulusAbsensi);
+
+    const lulus = lulusUjian && lulusAbsensi;
+    document.writeln(lulus);
+</script>
+</body>
+</html>

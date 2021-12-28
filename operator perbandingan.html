@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Perbandingan</title>
+</head>
+<body>
+    
+    <h1>Operator Perbandingan</h1>
+
+    <ul>
+        <li>hasil outputnya berupa <strong>boolean</strong></li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <strong>Operator</strong>
+                </td>
+                <td>
+                    <strong>Keterangan</strong>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    >
+                </td>
+                <td>
+                    Lebih Dari
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <
+                </td>
+                <td>
+                    Kurang Dari
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    >=
+                </td>
+                <td>
+                    Lebih Dari Sama Dengan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <=
+                </td>
+                <td>
+                    Kurang Dari Sama Dengan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ==
+                </td>
+                <td>
+                    Sama Dengan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ===
+                </td>
+                <td>
+                    Sama Dengan Sama Tipe
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    !=
+                </td>
+                <td>
+                    Tidak Sama Dengan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    !==
+                </td>
+                <td>
+                    Tidak Sama Dengan atau Tidak Sama Tipe
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <script>
+        let result = 5 == "5" //sama dengan hasilnya = true
+        document.writeln("<p>" + result + "</p>")
+
+        result = 5 === "5" //sama dengan tapi tidak sama tipe = false
+        document.writeln("<p>" + result + "</p>")
+
+        result = 5 > 10 //hasilnya false
+        document.writeln("<p>" + result + "</p>")
+
+        result = 5 < 10 //hasilnya true
+        document.writeln("<p>" + result + "</p>")
+    </script>
+</body>
+</html>
